@@ -1,12 +1,7 @@
-﻿Command: curl.exe -sS -H "Accept: application/vnd.github+json" -H "User-Agent: GitAssignmentCheck" https://api.github.com/repos/hunainahmed11/mcino-Introduction-to-Git-and-GitHub
-Relevant actual API output:
-
-
-full_name      : hunainahmed11/mcino-Introduction-to-Git-and-GitHub
-private        : False
-fork           : True
-parent         : ibm-developer-skills-network/mcino-Introduction-to-Git-and-Git
-                 Hub
-default_branch : main
-html_url       : https://github.com/hunainahmed11/mcino-Introduction-to-Git-and
-                 -GitHub
+﻿Command: curl.exe -L -sS -H "Accept: application/vnd.github+json" -H "User-Agent: GitAssignmentCheck" https://api.github.com/repos/hunainahmed11/github-final-project
+Actual relevant API output:
+fork: true
+parent: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+repository: hunainahmed11/github-final-project
+public: true
+default_branch: main

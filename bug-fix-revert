@@ -1,14 +1,8 @@
-﻿Command: curl.exe -sS -H "Accept: application/vnd.github+json" -H "User-Agent: GitAssignmentCheck" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12008
-Relevant actual API output:
-
-
-number          : 12008
-state           : closed
-html_url        : https://github.com/ibm-developer-skills-network/mcino-Introdu
-                  ction-to-Git-and-GitHub/pull/12008
-base_repository : ibm-developer-skills-network/mcino-Introduction-to-Git-and-Gi
-                  tHub
-base_branch     : main
-head_repository : hunainahmed11/mcino-Introduction-to-Git-and-GitHub
-head_branch     : bug-fix-revert
-head_sha        : 566ddc2d795513de6dd0977896feffc33d2964cb
+﻿Command: curl.exe -L -sS -H "Accept: application/vnd.github+json" -H "User-Agent: GitAssignmentCheck" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12008
+Actual relevant API output:
+number: 12008
+state: closed
+url: https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12008
+base: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub:main
+head: hunainahmed11/github-final-project:bug-fix-revert
+head_sha: 566ddc2d795513de6dd0977896feffc33d2964cb
