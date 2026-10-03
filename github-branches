@@ -1,4 +1,4 @@
-﻿PS> git branch -a
+PS> git branch -a
   bug-fix-revert
   bug-fix-typo
 * main
@@ -21,4 +21,3 @@ Untracked files:
 	merge_branches
 
 nothing added to commit but untracked files present (use "git add" to track)
-
