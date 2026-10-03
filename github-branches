@@ -1,0 +1,24 @@
+﻿PS> git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+  remotes/upstream/HEAD -> upstream/main
+  remotes/upstream/main
+
+PS> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bug-fix-revert
+	forked-repo
+	github-branches
+	merge_branches
+
+nothing added to commit but untracked files present (use "git add" to track)
+
