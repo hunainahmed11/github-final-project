@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Calculate simple interest from principal, annual rate, and time in years.
 set -eu
 
 is_non_negative_number() {
