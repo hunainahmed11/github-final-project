@@ -24,6 +24,8 @@ bash simple-interest.sh
 
 Enter the principal, annual rate, and time period when prompted. For example, a principal of `1000`, a rate of `5`, and a time of `2` years produces simple interest of `100.00`.
 
+The calculator accepts non-negative whole numbers or decimals for all three inputs.
+
 ## Author and contributions
 
 Maintained by [Hunain Ahmed](https://github.com/hunainahmed11). Contributions, bug reports, documentation improvements, enhancements, and ideas are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
